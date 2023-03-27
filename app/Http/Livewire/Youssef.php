@@ -27,14 +27,14 @@ class Youssef extends Component implements HasForms
                 1 => 'Test1',
                 2 => 'Test2',
                 3 => 'Tes3t',
-            ])->disablePlaceholderSelection()->formatStateUsing(fn() => 1),
+            ])->default(3)->searchable()->preload(),
 
             CheckboxList::make('tst')->options([
                 'test' => 'Test',
                 'test1' => 'Test1',
                 'test2' => 'Test2',
                 'test3' => 'Tes3t',
-            ])->formatStateUsing(fn() => ['test1'])
+            ])->default(['test1','test2'])
 
         ];
     }
