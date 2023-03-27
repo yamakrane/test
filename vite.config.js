@@ -4,7 +4,7 @@ import fs from 'fs'
 import { homedir } from 'os'
 import { resolve } from 'path'
 
-let host = 'filament.test'
+let host = 'stagx.test'
 
 export default defineConfig({
     plugins: [
