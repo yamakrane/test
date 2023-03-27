@@ -20,7 +20,7 @@ class Youssef extends Component implements HasForms
                 1 => 'Test1',
                 2 => 'Test2',
                 3 => 'Tes3t',
-            ])->default(fn() => 1),
+            ])->default(1),
 
             Select::make('tst')->options([
                 0 => 'Test',
