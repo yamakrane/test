@@ -22,14 +22,14 @@ class Youssef extends Component implements HasForms
                 3 => 'Tes3t',
             ])->default(1),
 
-            Select::make('tst')->options([
+            Select::make('test')->options([
                 0 => 'Test',
                 1 => 'Test1',
                 2 => 'Test2',
                 3 => 'Tes3t',
             ])->default(3)->searchable()->preload(),
 
-            CheckboxList::make('tst')->options([
+            CheckboxList::make('tstx')->options([
                 'test' => 'Test',
                 'test1' => 'Test1',
                 'test2' => 'Test2',
